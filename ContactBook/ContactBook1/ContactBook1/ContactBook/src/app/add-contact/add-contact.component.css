@@ -1,0 +1,19 @@
+.btn-align-right{
+    float: right;
+}
+
+.shadow{
+  margin-top: 40px;
+    border: 1px ;
+    padding: 3% 3% 5% 3%;
+    width: 45%;
+    box-shadow: 5px 5px 10px 10px;
+}
+
+.danger{
+  color: red;
+}
+
+.margin-right{
+  margin-right:10px;
+}

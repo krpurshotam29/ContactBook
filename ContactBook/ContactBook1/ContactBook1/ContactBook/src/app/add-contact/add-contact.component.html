@@ -1,0 +1,69 @@
+<div class="shadow">
+    <div *ngIf="!contact.Id; else update">
+        <h4>Add New Contact</h4>
+    </div>
+    <ng-template #update>
+        <h4>Update Contact</h4>
+    </ng-template>
+  <form [(formGroup)]="contactForm">
+      <div class="form-group">
+          <label>Name<label class="danger">*</label></label>
+          <input type="text" class="form-control" formControlName="Name">
+          <mat-error *ngFor="let error of Validation_messages.name">
+            <mat-error *ngIf="contactForm.get('Name').hasError(error.type) && contactForm.get('Name').touched">{{error.message}}</mat-error>  
+          </mat-error>
+      </div>
+
+      <div class="form-group">
+          <label>Email<label class="danger">*</label></label>
+          <input type="email" class="form-control" formControlName="Email">
+          <mat-error *ngFor="let error of Validation_messages.email">
+            <mat-error *ngIf="contactForm.get('Email').hasError(error.type) && contactForm.get('Email').touched">{{error.message}}</mat-error>  
+          </mat-error>
+      </div>
+
+      <div class="row form-group">
+          <div class="col">
+              <label>Mobile<label class="danger">*</label></label>
+              <input type="tel" class="form-control" formControlName="Mobile">
+              <mat-error *ngFor="let error of Validation_messages.mobile">
+                <mat-error *ngIf="contactForm.get('Mobile').hasError(error.type) && contactForm.get('Mobile').touched">{{error.message}}</mat-error>  
+              </mat-error>
+          </div>
+          <div class="col">
+              <label>Landline</label>
+              <input type="tel" class="form-control" formControlName="Phone">
+              <mat-error *ngFor="let error of Validation_messages.phone">
+                <mat-error *ngIf="contactForm.get('Phone').hasError(error.type) && contactForm.get('Phone').touched">{{error.message}}</mat-error>  
+              </mat-error>
+          </div>
+      </div>
+
+      <div class="form-group">
+          <label>Website</label>
+          <input type="text" class="form-control" formControlName="Website">
+          <mat-error *ngFor="let error of Validation_messages.website">
+            <mat-error *ngIf="contactForm.get('Website').hasError(error.type) && contactForm.get('Website').touched">{{error.message}}</mat-error>  
+          </mat-error>
+      </div>
+
+      <div class="form-group">
+          <label>Address<label class="danger">*</label></label>
+          <textarea class="form-control" formControlName="Address"></textarea>
+          <mat-error *ngFor="let error of Validation_messages.address">
+            <mat-error *ngIf="contactForm.get('Address').hasError(error.type) && contactForm.get('Address').touched">{{error.message}}</mat-error>  
+          </mat-error>
+      </div>
+
+
+      <div *ngIf="!contact.Id">
+        <button class="btn btn-primary btn-align-right" [disabled]="contactForm.invalid" (click)="AddContact()">Add</button>
+      </div>
+      <div *ngIf="contact.Id">
+        <button class="btn btn-primary btn-align-right" [disabled]="contactForm.pristine" (click)="UpdateContact()">Update</button>
+      </div>
+
+      <button class="btn btn-primary btn-align-right margin-right" routerLink="/">Cancel</button>
+
+  </form>
+</div>

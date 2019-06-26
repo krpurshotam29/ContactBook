@@ -1,0 +1,12 @@
+.point{
+    cursor: pointer;
+}
+
+.marginTop{
+    margin-top: 20px;
+}
+
+.pad{
+    width:45%;
+    padding: 3% 3% 5% 3%;
+}

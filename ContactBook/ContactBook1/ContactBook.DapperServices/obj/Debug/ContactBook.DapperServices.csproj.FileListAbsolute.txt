@@ -1,0 +1,16 @@
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.DapperServices.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.DapperServices.pdb
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.Model.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.Services.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\Dapper.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\AutoMapper.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.Model.pdb
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\ContactBook.Services.pdb
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\Dapper.xml
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\AutoMapper.pdb
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\bin\Debug\AutoMapper.xml
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\obj\Debug\ContactBook.DapperServices.csprojAssemblyReference.cache
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\obj\Debug\ContactBook.DapperServices.csproj.CoreCompileInputs.cache
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\obj\Debug\ContactBook.DapperServices.csproj.CopyComplete
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\obj\Debug\ContactBook.DapperServices.dll
+C:\Users\purushotam.s\Desktop\learning\Modified ContactBook\ContactBook1\ContactBook.DapperServices\obj\Debug\ContactBook.DapperServices.pdb

@@ -1,0 +1,37 @@
+<div *ngIf="contact">
+  <div class="pad">
+
+    <div class="row">
+      <div class="col-sm-8" style="padding: 0px;">
+        <h4>{{contact.Name}}</h4>
+      </div>
+      <div class="col-sm-2 point" [routerLink]="['/edit-contact',contact.Id]">
+        <img src="assets/edit.png" height="20px">Edit
+      </div>
+      <div class="col-sm-2 point" (click)="openDialog()">
+        <img src="assets/delete.png" height="30px">Delete
+      </div>
+    </div>
+    <div class="row marginTop">
+      <p>Email : {{contact.Email}}</p>
+    </div>
+    <div class="marginTop">
+      <div class="row">
+        <label>Mobile : </label>
+        <p>{{contact.Mobile}}</p>
+      </div>
+      <div class="row">
+        <label>Phone : </label>
+        <p>{{contact.Phone}}</p>
+      </div>
+    </div>
+    <div class="row marginTop">
+      <label>Website : </label>
+      <p>{{contact.Website}}</p>
+    </div>
+    <div class="row marginTop">
+      <label>Address : </label>
+      <p>{{contact.Address}}</p>
+    </div>
+  </div>
+</div>

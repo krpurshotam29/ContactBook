@@ -1,0 +1,58 @@
+<div ><p class="headBar">Address Book</p></div>
+<nav class="navbar navbar-expand-lg navbar-light navBar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home"><p class="navItem">HOME</p></a>
+      </li>
+
+      <li class="nav-item">
+        <i class="glyphicon glyphicon-plus"></i>
+        <a class="nav-link" routerLink="add-contact"><p class="navItem">+ADD</p></a>
+      </li>
+
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      <a href="https:google.com" target="blank">
+        <li class="nav-item">
+            <img src="assets/blog-icon.png">
+        </li>
+      </a>
+    </ul>
+
+  </div>
+
+</nav>
+
+<div class="marginTop">
+  <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 24px;">CONTACTS</p>
+  <div class="contactlist">
+    
+  <div *ngIf="!contactViewList">
+    <h5>No contacts found</h5>
+  </div>
+  <ul *ngFor="let contactView of contactViewList" class="list-group point">
+    <li class="list-group-item" [routerLink]="['contact', contactView.Id, 'detail']" routerLinkActive="focus">
+      <div>
+        <p class="name">{{contactView.Name}}</p>
+        <p class="marginBottom">{{contactView.Email}}</p>
+        <p class="marginBottom">{{contactView.Mobile}}</p>
+      </div>
+     </li>
+  </ul>      
+  </div>
+</div>
+
+<div class="contactdetail">`
+      <router-outlet></router-outlet>
+</div>
+
+
+
+<!-- <router-outlet (onDeactivate)="updateContactData($event)"></router-outlet> -->

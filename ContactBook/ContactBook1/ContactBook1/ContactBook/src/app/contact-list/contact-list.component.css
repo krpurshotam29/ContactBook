@@ -1,0 +1,78 @@
+.focus {
+  cursor: pointer;
+  background-color: #E8F7FF;
+}
+
+.point :hover{
+    cursor: pointer;
+    background-color: #E8F7FF;
+}
+
+.remove-padding{
+  padding: 0px;
+}
+
+.marginBottom{
+    margin: 0px 0px 0px 0px;
+}
+
+.name{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+
+.marginTop{
+    padding:40px;
+    float: left;
+    width: 25%; 
+}
+
+.contactlist{
+    padding: 0px 10px 0px 0px;
+    height: 700px; 
+    overflow-y: auto;
+}
+
+.contactdetail{
+    padding-left: 0px;
+    width: 75%;
+    float: right;
+}
+
+.navItem{
+    cursor: pointer;
+    border: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.shadow{
+    border: 1px ;
+    padding: 100px;
+    box-shadow: 5px 5px 10px 10px #000;
+}
+
+.headBar{
+    height: 12%; 
+    padding: 14px; 
+    background-color: #219EDF;
+    font-family: century gothic;
+    font-size: 300%;
+    color: white;
+    font-weight: 100;
+    margin:  0px;
+}
+
+.navBar{
+    background-color: #3C3D3E;
+    height: 4%;
+}
+
+.fontStyle{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700; 
+    font-size: 24px;
+}
